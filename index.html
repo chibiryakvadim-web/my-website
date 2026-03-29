@@ -3,28 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Agridera Seeds</title>
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/middle.css">
     <link rel="stylesheet" href="css/footer.css">
 </head>
-
 <body>
 
 <!-- HEADER -->
 <header>
-    <div class="container d-flex justify-content-between align-items-center">
+    <div class="container d-flex justify-content-between align-items-center py-3">
         <img src="images/header.png" class="logo">
 
-        <nav>
+        <nav class="nav-links">
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Products</a>
@@ -33,47 +32,97 @@
     </div>
 </header>
 
-<!-- BANNER -->
-<section class="banner text-center">
-    <div class="container">
+<!-- TOP BANNER -->
+<section class="banner">
+    <div class="banner-content text-center">
         <h1>Agridera Seeds and Agriculture Ltd</h1>
         <button class="btn btn-success mt-3">READ MORE</button>
     </div>
 </section>
 
-<!-- MAIN -->
-<main class="container mt-5">
+<!-- MAIN ACTIVITY -->
+<section class="main-activity container text-center mt-5">
+    <h2>Main Activity</h2>
+    <p class="section-subtitle">Agridera’s main activities</p>
 
-    <section class="text-center">
-        <h2>Main Activity</h2>
-        <img src="images/main.jpg" class="img-fluid mt-3">
-    </section>
-
-    <section class="text-center">
-        <h2>Vision & Mission</h2>
-        <img src="images/vision.jpg" class="img-fluid mt-3">
-    </section>
-
-    <section class="text-center">
-        <h2>Products</h2>
-
-        <div class="row mt-4">
-            <div class="col-md-4">
-                <img src="images/product1.jpg" class="img-fluid product">
-            </div>
-            <div class="col-md-4">
-                <img src="images/product2.jpg" class="img-fluid product">
-            </div>
-            <div class="col-md-4">
-                <img src="images/product3.jpg" class="img-fluid product">
-            </div>
+    <div class="row mt-4 justify-content-center">
+        <div class="col-md-3 activity-card">
+            <img src="images/main.jpg" class="img-fluid">
+            <h4>Open field crop seeds</h4>
+            <p>wheat, cotton, legumes, hybrid cucumbers & others</p>
         </div>
-    </section>
 
-</main>
+        <div class="col-md-3 activity-card">
+            <img src="images/product2.jpg" class="img-fluid">
+            <h4>Vegetable seeds</h4>
+            <p>hybrid open field tomatoes, cucumbers, onions</p>
+        </div>
+
+        <div class="col-md-3 activity-card">
+            <img src="images/product3.jpg" class="img-fluid">
+            <h4>Ornamental seeds</h4>
+            <p>sunflower decorative, lawn grass & more</p>
+        </div>
+    </div>
+</section>
+
+<!-- VISION & MISSION -->
+<section class="vision container mt-5">
+    <h2 class="text-center">Vision & Mission</h2>
+
+    <div class="row align-items-center mt-4">
+        <div class="col-md-6">
+            <h3>Vision</h3>
+            <p>
+                We believe in long-term growth with an emphasis on
+                research and meaningful cooperation with growers.
+            </p>
+        </div>
+
+        <div class="col-md-6">
+            <img src="images/vision.jpg" class="img-fluid rounded">
+        </div>
+    </div>
+
+    <div class="row align-items-center mt-5 flex-md-row-reverse">
+        <div class="col-md-6">
+            <h3>Mission</h3>
+            <p>
+                Providing seeds to professional growers worldwide,
+                guaranteeing stable quality and reliability.
+            </p>
+        </div>
+
+        <div class="col-md-6">
+            <img src="images/main.jpg" class="img-fluid rounded">
+        </div>
+    </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products container mt-5 text-center">
+    <h2>Products</h2>
+
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <img src="images/product1.jpg" class="img-fluid product-img">
+            <p>Confection Watermelon</p>
+        </div>
+
+        <div class="col-md-4">
+            <img src="images/product2.jpg" class="img-fluid product-img">
+            <p>Tomato Seeds</p>
+        </div>
+
+        <div class="col-md-4">
+            <img src="images/product3.jpg" class="img-fluid product-img">
+            <p>Clover</p>
+        </div>
+    </div>
+</section>
 
 <!-- FOOTER -->
-<footer class="text-center p-3">
+<footer class="footer text-center">
     <p>© 2026 Agridera</p>
 </footer>
 
